@@ -1,0 +1,76 @@
+version: 2
+
+sources:
+  - name: odoo
+    schema: raw
+    description: Raw data tables from Odoo database
+
+    tables:
+      # Attributes
+      - name: odoo_product_attribute
+      - name: odoo_product_attribute_value
+      - name: odoo_v_ace_product_attribute_line
+      
+      # Products 
+      - name: odoo_product_category
+      - name: odoo_product_template
+      - name: odoo_product_product
+      - name: odoo_jewelry_industry
+      - name: odoo_jewelry_purity
+      - name: odoo_jewelry_types
+      - name: odoo_jewelry_varieties
+      - name: odoo_main_stone
+      - name: odoo_side_stone
+
+      # Serials
+      - name: odoo_stock_production_lot_linked_rel
+      - name: odoo_stock_production_lot
+      - name: odoo_product_pricelist_item
+      - name: odoo_jewelry_color
+      - name: odoo_jewelry_size
+      - name: odoo_cabochon
+      - name: odoo_center_stone
+
+      # Stock      
+      - name: odoo_stock_warehouse
+      - name: odoo_stock_quant
+      - name: odoo_stock_location
+      - name: odoo_stock_move
+      - name: odoo_stock_move_line
+      - name: odoo_stock_picking
+      - name: odoo_stock_picking_type
+
+      # Purchase
+      - name: odoo_purchase_order
+      - name: odoo_purchase_order_line
+
+      # Order
+      - name: odoo_sale_order_line
+      - name: odoo_sale_order
+      - name: odoo_sale_order_promotion_rel
+      - name: odoo_ace_sale_promotion
+      - name: odoo_account_payment
+
+      # Partner
+      - name: odoo_res_partner
+      - name: odoo_membership_level
+      - name: odoo_res_users
+      - name: odoo_res_country_state
+      - name: odoo_crm_lost_reason
+
+      # Lead
+      - name: odoo_crm_lead
+      - name: odoo_crm_lead_line
+      - name: odoo_crm_team
+      - name: odoo_crm_lead_tag
+      - name: odoo_crm_lead_tag_rel
+
+      # UTM
+      - name: odoo_utm_source
+      - name: odoo_utm_medium
+
+      # SURVEY
+      - name: odoo_survey_survey
+      - name: odoo_survey_question
+      - name: odoo_survey_label
+      - name: odoo_survey_user_input_line

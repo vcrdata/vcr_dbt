@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: user_input
+    schema: raw
+    description: Raw data tables from user inputs
+
+    tables:
+      - name: user_input_wedding_product_code
